@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.banner-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/top-view-table-full-delicious-food-composition.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.584);
+    background-blend-mode: darken;
+}
+
+.banner-section .meal{
+    position: absolute;
+    bottom: -100px;
+    width: 300px;
+    z-index: 1;
+}
+
+.custom-shape-divider-bottom-1666172667 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1666172667 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 164px;
+}
+
+.custom-shape-divider-bottom-1666172667 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.banner-section .caption h1{
+    width: 1000px;
+    color:white ;
+    font-size: 70px;
+    
+}
+
+.banner-section .caption button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+}   
+
+.banner-section .caption{
+    text-align: center;
+    color: white;
+}
+
+/* #a84c32 */
+.how-to-order{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.how-to-order h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.how-to-order .steps-container{
+    padding: 50px 8%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.how-to-order .steps-container .card{
+    text-align: center;
+
+}
+
+.how-to-order .steps-container .card svg{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.location{
+    width: 100%;
+    padding: 50px 8%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.location h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.location .map-container{
+    width: 100%;
+}
+.mapouter{
+    width: 100%;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+    }
+
+    iframe{
+        width: 100%;
+        border-radius: 10px;
+    }
